@@ -1,0 +1,25 @@
+{
+    "name": "kyzegs/prunable",
+    "description": "Laravel's prunable traits without force deleting",
+    "authors": [
+        {
+            "name": "Sebastiaan",
+            "email": "kyzegs@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "laravel/pint": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kyzegs\\Prunable\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kyzegs\\Providers\\PrunableProvider"
+            ]
+        }
+    }
+}
